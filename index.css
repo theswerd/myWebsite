@@ -1,0 +1,37 @@
+.centerButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  
+}
+body {
+    /*background: #007bff;
+    background: linear-gradient(to right,#9CECFB,#65C7F7, #0052D4);*/
+    background: linear-gradient(to left, #ff00cc, #333399);
+    height: 100%;
+
+  }
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+  #page-content {
+    flex: 1 0 auto;
+  }
+  
+  .copyright{
+    align-content: center;
+    text-align: center;
+    -ms-flex-align: center;
+  
+  }
+.fa:hover {
+    opacity: 0.7;
+    color:lightgray;
+}
