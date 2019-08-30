@@ -1,0 +1,28 @@
+.logoImage{
+    border-radius: 20%;
+}
+#nav-bar{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.navbar-brand img{
+    height: 50px;
+    border-radius: 50%;
+}
+.navbar-nav li{
+    padding: 0px 2px;
+}
+.navbar-nav li a{
+    color: white !important;
+    float: right;
+    font-weight: 100;
+}
+.navbar-nav li a:hover{
+    color:#ffcc33 !important;
+    font-weight: 300;
+}
+.navbar{
+    background-image: linear-gradient(to right, #56ccf2, #2f80ed);
+    /**/
+}
