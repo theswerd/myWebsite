@@ -29,3 +29,16 @@ function getMobileOperatingSystem() {
         open("https://play.google.com/store/apps/details?id=com.swerd.SamoConnect&hl=en_US", "_blank");
       }
   }
+
+  function downloadMalibu(){
+    //  this.test = document.getElementById('platformWidget');
+
+  //console.log(getMobileOperatingSystem());
+     // this.test.innerHTML = getMobileOperatingSystem();
+      if(getMobileOperatingSystem()=="iOS"||getMobileOperatingSystem()=="unknown"){
+          console.log("Ok its working");
+          open("https://apps.apple.com/us/app/malibu-high-school/id1477792568?mt=8", "_blank");
+      }else if(getMobileOperatingSystem()=="Android" ||getMobileOperatingSystem()=="Windows Phone"){
+        open("https://play.google.com/store/apps/details?id=com.swerd.malibu&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1", "_blank");
+      }
+  }
