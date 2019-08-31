@@ -1,6 +1,4 @@
-.logoImage{
-    border-radius: 20%;
-}
+
 #nav-bar{
     position: sticky;
     top: 0px;
@@ -8,7 +6,7 @@
 }
 .navbar-brand img{
     height: 50px;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 .navbar-nav li{
     padding: 0px 2px;
@@ -25,4 +23,68 @@
 .navbar{
     background-image: linear-gradient(to right, #56ccf2, #2f80ed);
     /**/
+}
+/*----------------------------------------*/
+
+#banner{
+    background-image: linear-gradient(to right, #56ccf2, #2f80ed);
+    color: white;
+    padding-top: 10px;
+}
+.download{
+    font-size: 30px;
+    margin-top: 40px;
+}
+.apptitle{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.centerImage{
+    height: 200px;
+    border-radius: 50%;
+
+    display: flex;
+    
+}
+.insideProfile{
+    width: 30%;
+    float: none;
+    align-content: center;
+    align-self: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.bioText{
+    font-size: 20px;
+}
+.bottom-image{
+    width: 100%;
+    margin-bottom: -5px;
+}
+#features{
+    padding: 50px;
+}
+.paddedText{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#features{
+    color: white;
+    background: linear-gradient(to right, #56ccf2, #2f80ed);;
+}
+.featureIcon{
+    height: 60px;
+    align-content: center;
+    float: none;
+    margin-bottom: 30px;
+    /* fill: white; */
+  
+}
+.featureIcon path{
+    fill: white;
+    /* fill: white; */
+  
 }

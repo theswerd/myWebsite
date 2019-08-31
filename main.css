@@ -8,6 +8,13 @@ body {
   height: 100%;
 }
 
+#GooglePlayButton{
+  background-color: black;
+  border:1px solid white;
+  border-radius:6px;
+  box-sizing:border-box;
+  height:45px;
+}
 #page-content {
   flex: 1 0 auto;
 }
@@ -59,4 +66,7 @@ body {
   /*background-color: black;*/
   color: white;
   text-align: center;
+}
+.appScreenshot{
+  height: 500px;
 }
