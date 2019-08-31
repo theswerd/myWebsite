@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="malibu.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="Malibu"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="Malibu"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="Malibu"></script>
+    <link rel="icon" 
+        type="image/png" 
+        href="malibu/malibuLogo.png">
+    <title>Malibu High</title>
+</head>
+<body>
+<section id ="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+            <a class="navbar-brand" href="#">
+            <img src="malibu/malibuLogo.png" ></img>
+            </a>
+            <p id="platformWidget" href="#">
+             
+            </p>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="projects.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutUs">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" role="button" onclick="deviceTest();">Download Now</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section id="top">
+        <div class="row">
+            <div class="col-sm">
+                
+                <img src="multiplatform.svg" class="featureIcon mx-auto d-block" onclick="downloadSAMO();"></img>
+                <h4 class="text-center whiteText featureHeader">Multi-Platform</h4>
+                <p class='text-center whiteText'>The Malibu High App runs on iOS and Android. It is there for all Malibu High students.</p>
+            </div>
+            <div class="col-sm">
+                <img src="school.svg" class="featureIcon mx-auto d-block" onclick="downloadSAMO();"></img>
+                <h4 class="text-center whiteText featureHeader">Designed By Students</h4>
+                <p class='text-center whiteText'>The Malibu High App was made completely by high school students, for high school students. </p>
+            </div>
+            <div class="col-sm">
+                <img src="graduate.svg" class="featureIcon mx-auto d-block" onclick="downloadSAMO();"></img>
+                <h4 class="text-center whiteText featureHeader">Connecting School</h4>
+                <p class='text-center whiteText'>School is hard enough without having to memorize the campus or changing schedules. The Malibu High School takes the stress of students.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+            <h5 class="text-center whiteText">iOS</h5>
+            <a class="mx-auto d-block downloadButton" target="_blank" href="https://apps.apple.com/us/app/malibu-high-school/id1477792568?ign-mpt=uo%3D2">Download on the App Store</a>
+            </div>
+            <div class="col-sm-6">
+            <h5 class="text-center whiteText">Android</h5>
+            <a class="mx-auto d-block downloadButton" href="">Download on the Google Play Store</a>
+            </div>
+        </div>
+       
+    </section>
+    <section id="aboutUs">
+        <img src="ben.JPG" alt="Developer Photo: Benjamin Swerdlow" class="developedByImg mx-auto d-block"></img>
+        <h4 class='text-center'>Benjamin Swerdlow</h4>
+        <p class="text-center paddedText">Benjamin Swerdlow developed the Malibu High School App. He is a sophomore at Santa Monica High School, and developer of their official app, along with the John Adams app. He is currently working on Lincoln Middle School's app.</p>
+    </section>
+    <section id="features">
+        
+            
+        <h1 class="whiteText text-center">Features:</h1>
+        <h5 class="whiteText text-center">TL;DR: <b>A lot</b></h5>
+        <p class="whiteText text-center">The Malibu High School App comes with a map of the school, the school calendar, a personal checklist, the school schedule, and so much more!</p>
+    </section>
+    <nav class="navbar navbar-light bg-light">  
+        <p class="copyright whiteText">Copyright © SwerdIsTheWord</p>
+        <div>
+            <a href="https://www.instagram.com/swerdlowben/" target="_blank" class="fa fa-instagram whiteText"></a>
+            <a href="https://www.linkedin.com/in/benjamin-swerdlow-076089171" target="_blank" class="fa fa-linkedin whiteText"></a>
+            <a href="https://www.facebook.com/profile.php?id=100013235971344" target="_blank" class="fa fa-facebook whiteText"></a>
+
+        </div>
+
+    </nav>
+</body>
