@@ -70,18 +70,65 @@
 }
 #features{
     color: white;
-    background: linear-gradient(to right, #56ccf2, #2f80ed);;
+    background: linear-gradient(to right, #56ccf2, #2f80ed);
 }
 .featureIcon{
     height: 60px;
-    align-content: center;
-    float: none;
-    margin-bottom: 30px;
-    /* fill: white; */
-  
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.samoConnectCarousel{
+    height: 200px;
+    width: 200px;
+}
+.divider30Height{
+    height: 30px;
+}
+.divider10Height{
+    height: 10px;
+}
+.featureIcon:hover{
+    height: 70px;
+}
+#aboutUs{
+    background: linear-gradient(to right, #56ccf2, #2f80ed);;
 }
 .featureIcon path{
     fill: white;
     /* fill: white; */
   
 }
+.downloadButton downloadText{
+    color: black;
+}
+.downloadButton{
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+  
+  }
+  .downloadButton:hover{
+      background-image: linear-gradient(to left, #56ccf2, #2f80ed); 
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    
+    }
+
+    .downloadButton:hover downloadText{
+        color: white;
+    }

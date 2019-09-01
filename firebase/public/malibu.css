@@ -59,9 +59,12 @@
     margin: 20px;
     border-radius: 30px;
 }
-.paddedText{
-    padding-left: 10%;
-    padding-right: 10%;
+#ads{
+    background-image: linear-gradient(to right, #36d1dc, #5b86e5);
+}
+.adview{
+    background-image: linear-gradient(to right, #36d1dc, #5b86e5);
+
 }
 #features{
     padding: 10%;

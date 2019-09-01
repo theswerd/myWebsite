@@ -39,7 +39,10 @@ body {
 .whiteText{
   color: white;
 }
-
+.paddedText{
+  padding-left: 10%;
+  padding-right: 10%;
+}
 .centerButton{
     display: flex;
     align-items: center;
