@@ -1,0 +1,25 @@
+nav {
+    background-image: linear-gradient(to left, #0575e6, #021b79);
+    color: white;
+}
+.navbar-nav a {
+    color: white;
+}
+.navbar-nav a:hover {
+    color: black;
+}
+
+#contactBody{
+    padding: 10%;
+    background-image: linear-gradient(to left, #0575e6, #021b79);
+}
+.profileImage{
+    object-fit: contain;
+    height: 300px;
+    border-radius: 10px 80px 10px 80px;
+}
+
+.icon2{
+    height: 30px;
+    margin-bottom: 5px;
+}

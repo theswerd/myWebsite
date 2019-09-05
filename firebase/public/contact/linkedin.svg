@@ -1,0 +1,14 @@
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#ffffff" fill="#545454" id="svg_2" d="m23.923,3.885c2.209,0 4,1.791 4,4l0,15.847c0,2.209 -1.791,4 -4,4l-15.846,0c-2.211,0 -4,-1.791 -4,-4l0,-15.847c0,-2.209 1.789,-4 4,-4l15.846,0m0,-1l-15.846,0c-2.758,0 -5,2.243 -5,5l0,15.847c0,2.757 2.242,5 5,5l15.846,0c2.756,0 5,-2.243 5,-5l0,-15.847c0,-2.757 -2.244,-5 -5,-5l0,0z" class="st2"/>
+  <path stroke-miterlimit="10" stroke-width="0.5" stroke="#ffffff" fill="none" clip-rule="evenodd" fill-rule="evenodd" id="svg_3" d="m11.723,25.827l0,-10.894l-3.622,0l0,10.895l3.622,0l0,-0.001zm-1.812,-12.384c1.263,0 2.05,-0.838 2.05,-1.883c-0.022,-1.069 -0.787,-1.882 -2.025,-1.882c-1.239,0 -2.049,0.812 -2.049,1.882c0,1.045 0.785,1.883 2.002,1.883l0.022,0l0,0z" class="st4"/>
+  <path stroke-miterlimit="10" stroke-width="0.5" stroke="#ffffff" fill="none" clip-rule="evenodd" fill-rule="evenodd" id="svg_4" d="m13.727,25.827l3.621,0l0,-6.085c0,-0.326 0.024,-0.651 0.12,-0.884c0.262,-0.651 0.856,-1.325 1.856,-1.325c1.312,0 1.836,1 1.836,2.466l0,5.828l3.623,0l0,-6.247c0,-3.348 -1.787,-4.905 -4.171,-4.905c-1.954,0 -2.812,1.093 -3.288,1.837l-0.063,0.292l0.087,-1.871l-3.621,0c0.047,1.021 0,10.894 0,10.894l0,0z" class="st4"/>
+  <ellipse id="svg_5" cy="15.466373" cx="10.836755" stroke-width="0.5" stroke="#ffffff" fill="none"/>
+ </g>
+</svg>
