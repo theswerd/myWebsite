@@ -1,0 +1,57 @@
+#logo{
+    border-radius: 20%;
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.textWhite{
+    color: white;
+}
+.textWhite:hover{
+    text-decoration: none;
+    color: black;
+}
+.topNav{
+    background: linear-gradient(to right, #396afc, #2948ff);
+}
+.page-footer {
+    position: relative;
+    bottom:0px;
+}
+.nav-link {
+    color: white;
+}
+.smallB{
+    height: 10px;
+}
+.iosBadge{
+    height: 40px;
+}
+.list-unstyled{
+    align-content: center;
+    align-items: center;
+}
+.navbar-toggler{
+    color: white;
+}
+.navbar-nav li a{
+    color: white !important;
+    float: right;
+    font-weight: 100;
+}
+.navbar-nav li a:hover{
+    color: black !important;
+    float: right;
+    font-weight: 100;
+}
+.jumbotron{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#teacherT{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.search{
+    object-fit: contain;
+}

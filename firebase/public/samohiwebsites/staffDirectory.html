@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" 
+      type="image/png" 
+      href="logo.png">
+  <title>Staff Directory</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <meta charset="utf-8">
+
+    
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Filter/Select2 -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/js/select2.min.js"></script>
+
+
+
+  <!-- My Style -->
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light topNav">
+    <img id="logo" src='logo.png'></img>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse ml-auto" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://www.samohi.smmusd.org/Students/bells.html">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://app.enrichingstudents.com/">Flex Time</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="http://www.samohi.smmusd.org" target="_blank">Home</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron jumbotron-fluid ">
+    <div class="container">
+      <h1 class="display-4">Staff Directory</h1>
+      <p class="lead">The New SAMOHI Staff Directory allows you to search for the teachers you want to find.</p>
+      <select class="search" name="state" multiple="multiple"></select>
+  </div>
+</div>
+<div id="teacherT">
+  <table class="table">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Teacher</th>
+        <th scope="col">Ext</th>
+        <th scope="col">Room</th>
+        <th scope="col">Dep</th>
+        <th scope="col">House</th>
+        <th scope="col">Email</th>
+
+      </tr>
+    </thead>
+    <tbody id="insideTable">
+      <!--<tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Larry</td>
+        <td>the Bird</td>
+        <td>@twitter</td>
+      </tr>
+      -->
+    </tbody>
+  </table>
+</div>
+  <!-- Footer -->
+
+  <footer class="page-footer font-small topNav pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase textWhite">Santa Monica High School</h5>
+          <p class="textWhite">The New Santa Monica High School Staff Directory is designed by Benjamin Swerdlow, in conjunction with the SAMOHI Connect project, to make the school more connected.</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase textWhite">School Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="http://www.samohi.smmusd.org/Students/bells.html" class="textWhite">Schedule</a>
+            </li>
+            <li>
+              <a href="http://www.samohi.smmusd.org/BB.pdf" class="textWhite">Daily Bulletin</a>
+            </li>
+            <li>
+              <a href="https://smmusd.illuminatehc.com/login" class="textWhite">Illuminate</a>
+            </li>
+            <li>
+              <a href="https://app.enrichingstudents.com/" class="textWhite">Flex Time</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase textWhite">Get our app!!</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://apps.apple.com/us/app/samohi-connect/id1465501734?mt=8" class="iosBadge" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-05-30&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;"></a>
+            </li>
+            
+            <a href='https://play.google.com/store/apps/details?id=com.swerd.SamoConnect&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' height='62px'; src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 textWhite">Developed By Benjamin Swerdlow |
+      <a href="https://swerd.tech" class="textWhite"> © SwerdIsTheWord</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+
+  <!-- Bootstrap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- My Scripts -->
+  <script src="main.js"></script>
+</body>
