@@ -142,17 +142,14 @@
         <!-- Grid column -->
         <div class="col-md-3 mb-md-0 mb-3">
 
-          <!-- Links -->
-          <h5 class="text-uppercase textWhite">Get our app!!</h5>
+          <!-- Links <a class="nav-link" href="#" role="button" onclick="downloadSAMO();">Download Now</a> -->
+          
+          <a class="nav-link" href="#" role="button" onclick="downloadSAMO();"><h5 class='textWhite'>Get our app!!</h5></a>
 
-          <ul class="list-unstyled">
-            <li>
-              <a href="https://apps.apple.com/us/app/samohi-connect/id1465501734?mt=8" class="iosBadge" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-05-30&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;"></a>
-            </li>
-            
-            <a href='https://play.google.com/store/apps/details?id=com.swerd.SamoConnect&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' height='62px'; src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+          <button id="iosB" class="btn btn-outline-light" onclick="downloadIOS();"><img src="apple.svg" height="30px" ></img>Download on the App Store</button>
+          <div class="smallB"></div>
+          <button id="androidB" class="btn btn-outline-light " onclick="downloadAndroid();"><img src="googlePlayBW.svg" height="30px" ></img>Download on the Google Play Store</button>
 
-          </ul>
 
         </div>
         <!-- Grid column -->

@@ -24,9 +24,7 @@
 .smallB{
     height: 10px;
 }
-.iosBadge{
-    height: 40px;
-}
+
 .list-unstyled{
     align-content: center;
     align-items: center;
@@ -54,4 +52,18 @@
 }
 .search{
     object-fit: contain;
+}
+#iosB img{
+    margin-top: 2px;
+    margin-right: 7px;
+    margin-left: -10px;
+    align-content: center;
+    transform: translateY(-15%);
+}
+#androidB img{
+    margin-top: 2px;
+    margin-right: 7px;
+    margin-left: -10px;
+    transform: translateY(-7%);
+
 }
